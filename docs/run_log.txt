@@ -1,0 +1,6 @@
+$ python3 skill/ful-order-distribution/scripts/ful_distribution.py --ful data/ful_1c.xlsx --cloud data/cloud_registry.xlsx --staff data/staff_1c.xlsx --out out/demo
+{"summary": {"ful_total": 24, "new_rows": 18, "repeats": 2, "gaps": 1, "attention": 9, "duplicates": 1, "data_errors": 3, "unassigned": 2}, "file": "out/demo/result.xlsx"}
+Готово: новых строк — 18, повторных отправок — 2, требуют внимания — 9.
+Файл: out/demo/result.xlsx
+
+$ python3 -c 'print(open(...).read())'  # лист «Новые строки Cloud» — 18 строк, 12 колонок
